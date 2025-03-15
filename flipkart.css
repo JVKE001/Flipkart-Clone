@@ -1,0 +1,347 @@
+body {
+  background-color: #f1f2f4 !important;
+  margin: 0;
+}
+
+/*--------------------------------------------------------- HEADER ----------------------------------------------------*/
+header {
+  margin-top: 30px;
+  padding-bottom: 45px;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  z-index: 1000;
+  width: 100vw;
+  background-color: white;
+}
+
+.search-container {
+  background-color: #f0f5ff !important;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+input {
+  background-color: #f0f5ff !important;
+  border: none !important;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  width: auto;
+}
+
+.search-icon {
+  color: #b9bdc4 !important;
+  margin-left: 10px;
+}
+
+.search-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.topheader {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.login :hover {
+  background-color: #2a55e5;
+  border-radius: 10px;
+  color: white !important;
+}
+
+.login:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.nav-item.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  width: auto !important;
+  box-shadow: rgba(0, 0, 0, 0.9);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+}
+
+.three_dots {
+  position: absolute;
+  right: 0px;
+}
+
+/*----------------------------------------------------- BOTTOMHEADER --------------------------------------------------*/
+
+.bottomheader {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  white-space: nowrap;
+}
+.bottomheader::-webkit-scrollbar {
+  display: none;
+}
+main span {
+  text-transform: capitalize;
+}
+
+.bottomheader .col-auto {
+  flex: 0 0 auto;
+  text-align: center;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomheader img {
+  width: 64px;
+  height: 64px;
+}
+
+.container-fluid1 {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdow:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 180px;
+  left: 100;
+  z-index: 1000;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+/*------------------------------------------------- CAROUSEL_SLIDER ---------------------------------------------------*/
+
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 0px;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  right: 0px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  width: 3vw !important;
+  height: 8vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black !important;
+  position: absolute;
+  filter: invert(1);
+}
+
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.carousel-item {
+  transition: transform 0.5s ease-in-out;
+}
+
+/*------------------------------------------------ PRODUCTS_CAROUSEL_SLIDER -------------------------------------------*/
+
+section {
+  background-color: #fff;
+}
+
+section h2 {
+  font-size: 22px;
+  color: #1f1f1f;
+  font-weight: 600;
+}
+
+.recipeCarousel {
+  width: 100vw;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+  text-align: center;
+  border: none !important;
+}
+
+.card img {
+  object-fit: contain;
+  width: 152px;
+  height: 152px;
+}
+
+.card-title {
+  width: 152px;
+  height: 20px;
+  font-size: 14px;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card_mobile {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 80vw !important;
+  justify-content: flex-start !important;
+}
+
+.card_body_mobile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: flex-start !important;
+}
+
+.card-title_mobile {
+  width: 50vw !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.card-heading {
+  font-size: 17px;
+  font-weight: 400;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.card-text-highlight {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+main h2 {
+  font-size: 22px;
+  color: #1f1f1f;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.summer-essentials {
+  background-color: white;
+}
+
+.card-custom {
+  width: 100% !important;
+  max-width: 250px !important;
+  margin: auto !important;
+}
+
+main h4 {
+  color: #5f5a5a;
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  /* margin-top: 14px; */
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+span {
+  color: #565656;
+  text-transform: uppercase;
+  margin-right: 4px;
+  font-size: 14px;
+}
+main p {
+  color: #565656;
+  padding: 0 5px;
+  border-right: 1px solid #333;
+  font-size: 12px;
+}
+
+main ul {
+  color: #565656;
+  padding: 5px;
+  line-height: 0;
+  border-right: 1px solid #333;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.footer {
+  background-color: rgb(35, 34, 34);
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif !important;
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  line-height: 18px;
+  padding: 0px 0 30px 0;
+}
+.footer ul {
+  padding-left: 0px;
+}
+.footer ul li {
+  list-style: none;
+  font-weight: 600;
+}
+.footer h6 {
+  color: #878787;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.footer .bor {
+  border-left: 1px solid #878787;
+  padding-left: 32px;
+}
+.footer a {
+  text-decoration: none;
+}
+.bor a {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
